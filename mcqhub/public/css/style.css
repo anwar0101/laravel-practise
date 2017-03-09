@@ -153,6 +153,15 @@ Responsive media queries
 #portfolio{
 	background-color: #f0f1e9;
 }
+#login{
+	margin-top: 80px;
+}
+#register{
+	margin-top: 80px;
+}
+#dashboard{
+	margin-top: 80px;
+}
 .grid-padding{
 	padding: 0 8px;
 }

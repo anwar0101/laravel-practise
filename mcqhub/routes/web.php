@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', 'ListController@show');
+Route::get('/home', 'ListController@show');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index');
 
 Route::get('/dashboard', [
   'middleware' => ['auth'],

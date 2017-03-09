@@ -44,7 +44,7 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
 
-    @yield('moreScript')
+    @yield('more')
 
 </body>
 </html>

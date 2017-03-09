@@ -77,10 +77,8 @@
 
 @endsection
 
-@section('moreScript')
-
-@if(Auth::guest())
-    <script src="js/collapse-header.js"></script>
-@endif
-
+@section('more')
+    @if(Auth::guest())
+        <script src="js/collapse-header.js"></script>
+    @endif
 @endsection
