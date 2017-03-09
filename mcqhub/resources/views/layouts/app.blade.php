@@ -25,7 +25,7 @@
         ]) !!};
     </script>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
+<body">
     <div id="app">
         <!-- navigation -->
         @include('layouts.partials.nav')
@@ -35,11 +35,16 @@
 
     @include('layouts.partials.footer')
 
+
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/custom.js') }}"></script>
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/wow.js') }}"></script>
-    <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+
+    @yield('moreScript')
+
 </body>
 </html>
